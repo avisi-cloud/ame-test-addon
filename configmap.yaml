@@ -186,7 +186,7 @@ metadata:
   labels:
     addon: test-addon
 data:
-  color: ""${color:-green}""
+  color: "${color:-green}"
   how: fairlyNice
   textmode: "true"
 ---
